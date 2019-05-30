@@ -1,0 +1,10 @@
+{
+	"name" : "A+B Problem",
+	"test_count" : "1",
+	"std_exe" : "std.exe",
+	"output_file_ext" :"test",
+	"data_generate" : [
+		{"type":"line","data":[{"type":"int","min":"1","max":"4","var":"a"},{"type":"int","min":"1","max":"4","var":"b"}]},
+		{"type":"array","data":["line","$a",[{"type":"int","min":"1","max":"5","repeat":"$b"}]]}
+	]
+}
